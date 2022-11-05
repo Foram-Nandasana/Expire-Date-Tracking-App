@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282A632F377D124C8ED5E604 /* Pods_ExpireDateTrackingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CE9A9F7268112ECE7B383C /* Pods_ExpireDateTrackingApp.framework */; };
+		ED40749A28BA08FC006371BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40749928BA08FC006371BD /* AppDelegate.swift */; };
+		ED40749C28BA08FC006371BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED40749B28BA08FC006371BD /* ViewController.swift */; };
+		ED40749F28BA08FC006371BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED40749D28BA08FC006371BD /* Main.storyboard */; };
+		ED4074A128BA08FE006371BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4074A028BA08FE006371BD /* Assets.xcassets */; };
+		ED4074A428BA08FE006371BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4074A228BA08FE006371BD /* LaunchScreen.storyboard */; };
+		ED76EFD928D09C680068B708 /* productViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED76EFD828D09C680068B708 /* productViewController.swift */; };
+		EDB5AE1628C3472B006E01C1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EDB5AE1528C3472B006E01C1 /* GoogleService-Info.plist */; };
+		EDDF996628C9EF8D00B8D207 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDF996528C9EF8D00B8D207 /* UserModel.swift */; };
+		EDDF996828C9F04E00B8D207 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDF996728C9F04E00B8D207 /* ProfileViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D81076FB84398C354CE627C /* Pods-ExpireDateTrackingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpireDateTrackingApp.debug.xcconfig"; path = "Target Support Files/Pods-ExpireDateTrackingApp/Pods-ExpireDateTrackingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6928839CC986F0E36B82F020 /* Pods-ExpireDateTrackingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExpireDateTrackingApp.release.xcconfig"; path = "Target Support Files/Pods-ExpireDateTrackingApp/Pods-ExpireDateTrackingApp.release.xcconfig"; sourceTree = "<group>"; };
+		ED40749628BA08FC006371BD /* ExpireDateTrackingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpireDateTrackingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED40749928BA08FC006371BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED40749B28BA08FC006371BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED40749E28BA08FC006371BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED4074A028BA08FE006371BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED4074A328BA08FE006371BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED4074A528BA08FE006371BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED76EFD828D09C680068B708 /* productViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productViewController.swift; sourceTree = "<group>"; };
+		EDB5AE1528C3472B006E01C1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EDDF996528C9EF8D00B8D207 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		EDDF996728C9F04E00B8D207 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F4CE9A9F7268112ECE7B383C /* Pods_ExpireDateTrackingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExpireDateTrackingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED40749328BA08FC006371BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282A632F377D124C8ED5E604 /* Pods_ExpireDateTrackingApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32ABF44ECFA81363B78806C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D81076FB84398C354CE627C /* Pods-ExpireDateTrackingApp.debug.xcconfig */,
+				6928839CC986F0E36B82F020 /* Pods-ExpireDateTrackingApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7E92CC223BEC9250F70C03DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE9A9F7268112ECE7B383C /* Pods_ExpireDateTrackingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED40748D28BA08FC006371BD = {
+			isa = PBXGroup;
+			children = (
+				ED40749828BA08FC006371BD /* ExpireDateTrackingApp */,
+				ED40749728BA08FC006371BD /* Products */,
+				32ABF44ECFA81363B78806C9 /* Pods */,
+				7E92CC223BEC9250F70C03DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED40749728BA08FC006371BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED40749628BA08FC006371BD /* ExpireDateTrackingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED40749828BA08FC006371BD /* ExpireDateTrackingApp */ = {
+			isa = PBXGroup;
+			children = (
+				ED40749928BA08FC006371BD /* AppDelegate.swift */,
+				ED40749B28BA08FC006371BD /* ViewController.swift */,
+				ED40749D28BA08FC006371BD /* Main.storyboard */,
+				ED4074A028BA08FE006371BD /* Assets.xcassets */,
+				ED4074A228BA08FE006371BD /* LaunchScreen.storyboard */,
+				EDB5AE1528C3472B006E01C1 /* GoogleService-Info.plist */,
+				ED4074A528BA08FE006371BD /* Info.plist */,
+				EDDF996528C9EF8D00B8D207 /* UserModel.swift */,
+				EDDF996728C9F04E00B8D207 /* ProfileViewController.swift */,
+				ED76EFD828D09C680068B708 /* productViewController.swift */,
+			);
+			path = ExpireDateTrackingApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED40749528BA08FC006371BD /* ExpireDateTrackingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED4074A828BA08FE006371BD /* Build configuration list for PBXNativeTarget "ExpireDateTrackingApp" */;
+			buildPhases = (
+				03860F6CBCBD107E57103011 /* [CP] Check Pods Manifest.lock */,
+				ED40749228BA08FC006371BD /* Sources */,
+				ED40749328BA08FC006371BD /* Frameworks */,
+				ED40749428BA08FC006371BD /* Resources */,
+				58C01AD51EF31F2B9E0F5D57 /* [CP] Embed Pods Frameworks */,
+				73A15B31A0E802FAA9FC0614 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExpireDateTrackingApp;
+			productName = ExpireDateTrackingApp;
+			productReference = ED40749628BA08FC006371BD /* ExpireDateTrackingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED40748E28BA08FC006371BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					ED40749528BA08FC006371BD = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = ED40749128BA08FC006371BD /* Build configuration list for PBXProject "ExpireDateTrackingApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED40748D28BA08FC006371BD;
+			productRefGroup = ED40749728BA08FC006371BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED40749528BA08FC006371BD /* ExpireDateTrackingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED40749428BA08FC006371BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED4074A428BA08FE006371BD /* LaunchScreen.storyboard in Resources */,
+				EDB5AE1628C3472B006E01C1 /* GoogleService-Info.plist in Resources */,
+				ED4074A128BA08FE006371BD /* Assets.xcassets in Resources */,
+				ED40749F28BA08FC006371BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03860F6CBCBD107E57103011 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExpireDateTrackingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58C01AD51EF31F2B9E0F5D57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExpireDateTrackingApp/Pods-ExpireDateTrackingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExpireDateTrackingApp/Pods-ExpireDateTrackingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExpireDateTrackingApp/Pods-ExpireDateTrackingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73A15B31A0E802FAA9FC0614 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExpireDateTrackingApp/Pods-ExpireDateTrackingApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExpireDateTrackingApp/Pods-ExpireDateTrackingApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExpireDateTrackingApp/Pods-ExpireDateTrackingApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED40749228BA08FC006371BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED40749C28BA08FC006371BD /* ViewController.swift in Sources */,
+				EDDF996628C9EF8D00B8D207 /* UserModel.swift in Sources */,
+				EDDF996828C9F04E00B8D207 /* ProfileViewController.swift in Sources */,
+				ED76EFD928D09C680068B708 /* productViewController.swift in Sources */,
+				ED40749A28BA08FC006371BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED40749D28BA08FC006371BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED40749E28BA08FC006371BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED4074A228BA08FE006371BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED4074A328BA08FE006371BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED4074A628BA08FE006371BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED4074A728BA08FE006371BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED4074A928BA08FE006371BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D81076FB84398C354CE627C /* Pods-ExpireDateTrackingApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3XXVB4757;
+				INFOPLIST_FILE = ExpireDateTrackingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Student.ExpireDateTrackingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED4074AA28BA08FE006371BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6928839CC986F0E36B82F020 /* Pods-ExpireDateTrackingApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N3XXVB4757;
+				INFOPLIST_FILE = ExpireDateTrackingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Student.ExpireDateTrackingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED40749128BA08FC006371BD /* Build configuration list for PBXProject "ExpireDateTrackingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4074A628BA08FE006371BD /* Debug */,
+				ED4074A728BA08FE006371BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED4074A828BA08FE006371BD /* Build configuration list for PBXNativeTarget "ExpireDateTrackingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED4074A928BA08FE006371BD /* Debug */,
+				ED4074AA28BA08FE006371BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED40748E28BA08FC006371BD /* Project object */;
+}
